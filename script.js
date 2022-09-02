@@ -1,3 +1,3 @@
 (() => {
-console.log("Hello World");
+document.querySelector('body').style.background = "green";
 })();
