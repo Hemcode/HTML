@@ -1,11 +1,14 @@
-(function() {
-  const body = document.querySelector('body');
-// TRY_CATCH_FINALLY
-  try {
-    body.style.backgroundColor = "green";
-  } catch (e) {
-    console.log(e);
-  } finally {
-    console.log('Hello Wolrd\n');
+const tryCatchFinal = "It's " + false;
+
+let a = 23;
+let b = 23;
+
+try {
+  if (a == b) {
+    console.log(true);
+  } else {
+    console.log(false);
   }
-})();
+} catch (e) {
+  console.log(e);
+}
