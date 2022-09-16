@@ -1,8 +1,15 @@
-const a = 67;
-const b = a + 1;
-
-if (a > b) {
-  console.log("It's " + true);
-} else {
-  console.log("It's " + false);
+const main = function() {
+  let a = [{
+    nom: "Hemdy",
+    age: 13,
+  }, {
+    nom: 'Keyvan',
+    age: 13,
+  }, {
+    nom: "Hamza",
+    age: 13,
+  }]
+  console.log(a[2].nom);
 }
+
+main();
