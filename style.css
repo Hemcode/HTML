@@ -1,8 +1,20 @@
-h1, h2, h3 {
+h1, h2, h3, h4, h5, h6 {
   text-transform: uppercase;
   font-style: italic;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-size: 6rem;
+  filter: drop-shadow(0px 0px 1px black);
 }
 
 body {
-  background-color: green;
+  background-color: azure;
+}
+
+hr {
+  border-bottom: black;
 }

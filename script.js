@@ -1,14 +1,8 @@
-const tryCatchFinal = "It's " + false;
+const a = 67;
+const b = a + 1;
 
-let a = 23;
-let b = 23;
-
-try {
-  if (a == b) {
-    console.log(true);
-  } else {
-    console.log(false);
-  }
-} catch (e) {
-  console.log(e);
+if (a > b) {
+  console.log(true);
+} else {
+  console.log(false);
 }
