@@ -18,3 +18,17 @@ body {
 hr {
   border-bottom: black;
 }
+
+.box {
+  border-radius: 15px;
+  background: white;
+  width: 300px;
+}
+
+h2 {
+  font-size: 3.5rem;
+}
+
+p, ul, ol {
+  font-family: 'Space Mono', monospace;
+}
