@@ -12,7 +12,7 @@ h1 {
 }
 
 body {
-  background-color: azure;
+/*  background-color: azure; */
 }
 
 hr {
@@ -23,6 +23,7 @@ hr {
   border-radius: 15px;
   background: white;
   width: 300px;
+  float: left;
 }
 
 h2 {
@@ -31,4 +32,8 @@ h2 {
 
 p, ul, ol {
   font-family: 'Space Mono', monospace;
+}
+
+#column1, #column2 {
+  background-color: #a1edcc;
 }
